@@ -1,0 +1,17 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeff Web</title>
+  </head>
+  <body>
+    <h2 id="top" style="text-align: center;">Jeff</h2>
+    <button id="btn" onclick="myFunct()">Change Web</button>
+    <script>
+      function myFunct() {
+        document.getElementById('top').innerHTML = '<h1 style="text-align: center; color: green;">Jeff</h1>';
+        document.body.style.backgroundColor = 'green';
+        alert('Good');
+      }
+    </script>
+  </body>
+</html>
